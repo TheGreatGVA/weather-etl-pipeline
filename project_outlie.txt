@@ -1,0 +1,10 @@
+ETL - airflow, postgres, dbt, docker
+
+extract and load - airflow
+storage - postgres
+transform - dbt
+orchestration - airflow 
+visulaization - superset
+
+
+everything running through docker

@@ -1,0 +1,14 @@
+verison: 2
+
+models:
+  - name: stg_weather
+    columns:
+      - name: city
+        tests:
+          - not null
+      - name: temp_c
+        tests:
+          - not null
+      - name: humidity
+        tests:
+          - not null

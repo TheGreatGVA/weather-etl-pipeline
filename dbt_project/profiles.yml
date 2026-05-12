@@ -1,0 +1,12 @@
+weather_pipeline:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: pipeline-db
+      port: 5432
+      dbname: weather_db
+      user: pipeline_user
+      password: pipeline_pass
+      schema: analytics
+      threads: 1
